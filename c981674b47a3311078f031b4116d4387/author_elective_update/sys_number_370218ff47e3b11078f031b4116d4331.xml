@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="DELETE">
+        <category display_value="" name="u_product_quote">u_product_quote</category>
+        <maximum_digits>5</maximum_digits>
+        <number>1000</number>
+        <prefix>PQ</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-12 00:53:50</sys_created_on>
+        <sys_id>370218ff47e3b11078f031b4116d4331</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PQ</sys_name>
+        <sys_package display_value="GCX Flag Configs" source="c981674b47a3311078f031b4116d4387">c981674b47a3311078f031b4116d4387</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GCX Flag Configs">c981674b47a3311078f031b4116d4387</sys_scope>
+        <sys_update_name>sys_number_370218ff47e3b11078f031b4116d4331</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-12 00:53:50</sys_updated_on>
+    </sys_number>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GCX Flag Configs">c981674b47a3311078f031b4116d4387</application>
+        <file_path/>
+        <instance_id>3c2d7165db9631dc37d72a59139619cd</instance_id>
+        <instance_name>dev203409</instance_name>
+        <name>sys_number_370218ff47e3b11078f031b4116d4331</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number"><sys_number action="INSERT_OR_UPDATE"><category display_value="" name="u_product_quote">u_product_quote</category><maximum_digits>5</maximum_digits><number>1000</number><prefix>PQ</prefix><sys_class_name>sys_number</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-12 00:53:50</sys_created_on><sys_id>370218ff47e3b11078f031b4116d4331</sys_id><sys_mod_count>0</sys_mod_count><sys_name>PQ</sys_name><sys_package display_value="GCX Flag Configs" source="c981674b47a3311078f031b4116d4387">c981674b47a3311078f031b4116d4387</sys_package><sys_policy/><sys_scope display_value="GCX Flag Configs">c981674b47a3311078f031b4116d4387</sys_scope><sys_update_name>sys_number_370218ff47e3b11078f031b4116d4331</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-12 00:53:50</sys_updated_on></sys_number></record_update>]]></payload>
+        <payload_hash>161155634</payload_hash>
+        <record_name>PQ</record_name>
+        <reverted_from/>
+        <source>08d67ca43cb1311068bcf327dfe37fbd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-12 00:53:50</sys_created_on>
+        <sys_id>30625cff47e3b11078f031b4116d4378</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18cfb2934d90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-12 00:53:50</sys_updated_on>
+        <type>Number</type>
+        <update_guid>78625cff97e3b11090ae678f81610c77</update_guid>
+        <update_guid_history>78625cff97e3b11090ae678f81610c77:161155634</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-12 01:06:10</sys_created_on>
+        <sys_db_object display_value="" name="sys_number">sys_number</sys_db_object>
+        <sys_id>af50c9939e844d7f8b3acf30774bc3d1</sys_id>
+        <sys_metadata>370218ff47e3b11078f031b4116d4331</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PQ</sys_name>
+        <sys_package display_value="GCX Flag Configs" source="c981674b47a3311078f031b4116d4387">c981674b47a3311078f031b4116d4387</sys_package>
+        <sys_parent display_value="product_quote">1b3c234747e3311078f031b4116d4321</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="GCX Flag Configs">c981674b47a3311078f031b4116d4387</sys_scope>
+        <sys_scope_delete display_value="">2c838ff7deba4e148d98349b9ed54d61</sys_scope_delete>
+        <sys_update_name>sys_number_370218ff47e3b11078f031b4116d4331</sys_update_name>
+        <sys_update_version display_value="sys_number_370218ff47e3b11078f031b4116d4331">30625cff47e3b11078f031b4116d4378</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-12 01:06:10</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

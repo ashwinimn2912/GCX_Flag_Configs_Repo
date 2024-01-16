@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_country" table="u_product_quote" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_country</element>
+            <name>u_product_quote</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-11 04:45:34</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_country</sys_name>
+            <sys_package display_value="GCX Flag Configs" source="c981674b47a3311078f031b4116d4387">c981674b47a3311078f031b4116d4387</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="GCX Flag Configs">c981674b47a3311078f031b4116d4387</sys_scope>
+            <sys_update_name>sys_choice_u_product_quote_u_country</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-11 04:45:34</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Africa</dependent_value>
+            <element>u_country</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Bhutan</label>
+            <language>en</language>
+            <name>u_product_quote</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-11 07:48:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>339760a747a7711078f031b4116d43e0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-11 07:48:56</sys_updated_on>
+            <value>bhutan</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>APAC</dependent_value>
+            <element>u_country</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Azerbaijan</label>
+            <language>en</language>
+            <name>u_product_quote</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-11 04:50:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>090f7bdf47a3711078f031b4116d43b6</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-11 05:30:37</sys_updated_on>
+            <value>azerbaijan</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>APAC</dependent_value>
+            <element>u_country</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Armenia</label>
+            <language>en</language>
+            <name>u_product_quote</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-11 04:50:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>890f7bdf47a3711078f031b4116d43b5</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-11 05:30:45</sys_updated_on>
+            <value>armenia</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>APAC</dependent_value>
+            <element>u_country</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Afghanistan</label>
+            <language>en</language>
+            <name>u_product_quote</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-11 04:45:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>addd3b9f47a3711078f031b4116d4356</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-11 05:30:48</sys_updated_on>
+            <value>afghanistan</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Europe</dependent_value>
+            <element>u_country</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>China</label>
+            <language>en</language>
+            <name>u_product_quote</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-11 04:45:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>21dd3b9f47a3711078f031b4116d4356</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-11 05:31:01</sys_updated_on>
+            <value>china</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Europe</dependent_value>
+            <element>u_country</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>American Samoa</label>
+            <language>en</language>
+            <name>u_product_quote</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-11 04:50:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0d0f7bdf47a3711078f031b4116d43b4</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-11 05:31:06</sys_updated_on>
+            <value>american samoa</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>India</dependent_value>
+            <element>u_country</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>India</label>
+            <language>en</language>
+            <name>u_product_quote</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-11 04:45:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a5dd3b9f47a3711078f031b4116d4354</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-11 05:26:54</sys_updated_on>
+            <value>india</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

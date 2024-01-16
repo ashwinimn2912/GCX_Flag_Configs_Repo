@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="1b3c234747e3311078f031b4116d4321" label="product_quote" max_length="40" name="u_product_quote" type="collection">
+        <element attributes="encode_utf8=false" label="Account" max_length="32" name="u_account" reference="customer_account" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="A-end Address 1" max_length="40" name="u_a_end_address_1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="A-end Address 2" max_length="40" name="u_a_end_address_2" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="A-end Address 3" max_length="40" name="u_a_end_address_3" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="A-end Postcode/Zip" max_length="40" name="u_a_end_postcode_zip" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="A-end State" max_length="40" name="u_a_end_state" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="A-end Town/City" max_length="40" name="u_a_end_town_city" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Pop-end Address 1" max_length="40" name="u_b_end_address_1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Pop-end Address 2" max_length="40" name="u_b_end_address_2" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Pop-end Address 3" max_length="40" name="u_b_end_address_3" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Carrier Access Bandwidth" max_length="40" name="u_carrier_access_bandwidth" type="string">
+            <choice>
+                <element inactive_on_update="false" label="--- Sub E1 ---" sequence="0" value="--- Sub E1 ---"/>
+                <element inactive_on_update="false" label="64K" sequence="1" value="64K"/>
+                <element inactive_on_update="false" label="128K" sequence="2" value="128K"/>
+                <element inactive_on_update="false" label="256K" sequence="3" value="256K"/>
+                <element inactive_on_update="false" label="512K" sequence="4" value="512K"/>
+                <element inactive_on_update="false" label="--- Bearer ---" sequence="5" value="--- Bearer ---"/>
+                <element inactive_on_update="false" label="2M/100M" sequence="6" value="2M/100M"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Carrier Access  Technology" max_length="40" name="u_carrier_access_technology" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Carrier Product" max_length="40" name="u_carrier_product" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Internet" sequence="0" value="internet"/>
+                <element inactive_on_update="false" label="Carrier Product" sequence="1" value="carrier product"/>
+                <element inactive_on_update="false" label="MPLS" sequence="2" value="mpls"/>
+                <element inactive_on_update="false" label="L1 P2P" sequence="3" value="l1 p2p"/>
+                <element inactive_on_update="false" label="L2 P2P" sequence="4" value="l2 p2p"/>
+                <element inactive_on_update="false" label="VPLS" sequence="5" value="vpls"/>
+                <element inactive_on_update="false" label="Cross Connection" sequence="6" value="cross connection"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Carrier Product Name" max_length="40" name="u_carrier_product_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" dependent="u_region" dependent_on_field="u_region" label="Country" max_length="40" name="u_country" type="string" use_dependent_field="true">
+            <choice>
+                <element dependent_value="Africa" inactive_on_update="false" label="Bhutan" value="bhutan"/>
+                <element dependent_value="APAC" inactive_on_update="false" label="Azerbaijan" sequence="0" value="azerbaijan"/>
+                <element dependent_value="APAC" inactive_on_update="false" label="Armenia" sequence="1" value="armenia"/>
+                <element dependent_value="APAC" inactive_on_update="false" label="Afghanistan" sequence="2" value="afghanistan"/>
+                <element dependent_value="Europe" inactive_on_update="false" label="China" sequence="3" value="china"/>
+                <element dependent_value="Europe" inactive_on_update="false" label="American Samoa" sequence="4" value="american samoa"/>
+                <element dependent_value="India" inactive_on_update="false" label="India" sequence="5" value="india"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="managed services/vanco" label="GCX Service Type" max_length="40" name="u_gcx_service_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Managed Services/Vanco" sequence="0" value="managed services/vanco"/>
+                <element inactive_on_update="false" label="Ethernet VPLS/Yipes" sequence="1" value="ethernet vpls/yipes"/>
+                <element inactive_on_update="false" label="Wholesale/Flag" sequence="2" value="wholesale/flag"/>
+            </choice>
+        </element>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Request ID" max_length="40" name="u_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Pop-end" max_length="40" name="u_pop_end" reference="u_pop_end" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Pop-end Country" max_length="40" name="u_pop_end_country" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Pop-end Postcode/Zip" max_length="40" name="u_pop_end_postcode_zip" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Pop-end State" max_length="40" name="u_pop_end_state" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Pop-end Town/City" max_length="40" name="u_pop_end_town_city" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Postcode/Zip" max_length="40" name="u_postcode_zip" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Provider" max_length="40" name="u_provider" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Quote Reference" max_length="40" name="u_quote_reference" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Region" max_length="40" name="u_region" type="string">
+            <choice>
+                <element inactive_on_update="false" label="India" sequence="0" value="india"/>
+                <element inactive_on_update="false" label="Europe" sequence="1" value="europe"/>
+                <element inactive_on_update="false" label="Middle East" sequence="2" value="middle east"/>
+                <element inactive_on_update="false" label="Africa" sequence="3" value="africa"/>
+                <element inactive_on_update="false" label="APAC" sequence="4" value="APAC"/>
+                <element inactive_on_update="false" label="Americas" sequence="5" value="Americas"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Request ID" max_length="40" name="u_request_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Required Access Bandwidth" max_length="40" name="u_required_access_bandwidth" type="string">
+            <choice>
+                <element inactive_on_update="false" label="--- Sub E1 ---" sequence="0" value="--- Sub E1 ---"/>
+                <element inactive="true" inactive_on_update="true" label="128K" sequence="0" value="128K"/>
+                <element inactive_on_update="false" label="64K" sequence="1" value="64K"/>
+                <element inactive_on_update="false" label="256K" sequence="2" value="256K"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Required Access Technology" max_length="40" name="u_required_access_technology" type="string"/>
+        <element attributes="encode_utf8=false" label="Site contact" max_length="32" name="u_site_contact" reference="customer_contact" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="State" max_length="40" name="u_state" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Total bought in cost MRC " max_length="40" name="u_total_bought_in_cost_mrc" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Total bought in cost NRC " max_length="40" name="u_total_bought_in_cost_nrc" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Town/City" max_length="40" name="u_town_city" type="string"/>
+        <index name="index">
+            <element name="u_account"/>
+        </index>
+        <index name="index2">
+            <element name="u_site_contact"/>
+        </index>
+    </element>
+</database>

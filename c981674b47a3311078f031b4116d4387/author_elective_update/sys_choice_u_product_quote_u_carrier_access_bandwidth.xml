@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_carrier_access_bandwidth" table="u_product_quote" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_carrier_access_bandwidth</element>
+            <name>u_product_quote</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-12 01:31:39</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_carrier_access_bandwidth</sys_name>
+            <sys_package display_value="GCX Flag Configs" source="c981674b47a3311078f031b4116d4387">c981674b47a3311078f031b4116d4387</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="GCX Flag Configs">c981674b47a3311078f031b4116d4387</sys_scope>
+            <sys_update_name>sys_choice_u_product_quote_u_carrier_access_bandwidth</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-12 01:31:39</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_carrier_access_bandwidth</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>--- Sub E1 ---</label>
+            <language>en</language>
+            <name>u_product_quote</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-12 01:31:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>320b503b4727b11078f031b4116d4335</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-12 01:31:39</sys_updated_on>
+            <value>--- Sub E1 ---</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_carrier_access_bandwidth</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>64K</label>
+            <language>en</language>
+            <name>u_product_quote</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-12 01:31:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b20b503b4727b11078f031b4116d4336</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-12 01:31:39</sys_updated_on>
+            <value>64K</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_carrier_access_bandwidth</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>128K</label>
+            <language>en</language>
+            <name>u_product_quote</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-12 01:31:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>720b503b4727b11078f031b4116d4337</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-12 01:31:39</sys_updated_on>
+            <value>128K</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_carrier_access_bandwidth</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>256K</label>
+            <language>en</language>
+            <name>u_product_quote</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-12 01:31:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>320b503b4727b11078f031b4116d4338</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-12 01:31:39</sys_updated_on>
+            <value>256K</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_carrier_access_bandwidth</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>512K</label>
+            <language>en</language>
+            <name>u_product_quote</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-12 01:31:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fe0b503b4727b11078f031b4116d4338</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-12 01:31:39</sys_updated_on>
+            <value>512K</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_carrier_access_bandwidth</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>--- Bearer ---</label>
+            <language>en</language>
+            <name>u_product_quote</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-12 01:31:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>be0b503b4727b11078f031b4116d4339</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-12 01:31:39</sys_updated_on>
+            <value>--- Bearer ---</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_carrier_access_bandwidth</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2M/100M</label>
+            <language>en</language>
+            <name>u_product_quote</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-12 01:31:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fe0b583b4727b11078f031b4116d43ae</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-12 01:31:39</sys_updated_on>
+            <value>2M/100M</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

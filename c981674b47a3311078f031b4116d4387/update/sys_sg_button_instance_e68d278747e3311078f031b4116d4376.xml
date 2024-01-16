@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance">
+    <sys_sg_button_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <button display_value="Edit Button (product_quote)">a28d278747e3311078f031b4116d436e</button>
+        <color_theme/>
+        <description/>
+        <disable_offline>false</disable_offline>
+        <field_name/>
+        <icon/>
+        <label>Edit</label>
+        <location>top</location>
+        <name>Edit (product_quote)</name>
+        <order/>
+        <parent>de8d278747e3311078f031b4116d4342</parent>
+        <parent_table>sys_sg_form_screen</parent_table>
+        <sys_class_name>sys_sg_button_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-10 08:55:53</sys_created_on>
+        <sys_id>e68d278747e3311078f031b4116d4376</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Edit (product_quote)</sys_name>
+        <sys_package display_value="GCX Flag Configs" source="c981674b47a3311078f031b4116d4387">c981674b47a3311078f031b4116d4387</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GCX Flag Configs">c981674b47a3311078f031b4116d4387</sys_scope>
+        <sys_update_name>sys_sg_button_instance_e68d278747e3311078f031b4116d4376</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-10 08:55:53</sys_updated_on>
+        <table/>
+    </sys_sg_button_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=e68d278747e3311078f031b4116d4376"/>
+</record_update>

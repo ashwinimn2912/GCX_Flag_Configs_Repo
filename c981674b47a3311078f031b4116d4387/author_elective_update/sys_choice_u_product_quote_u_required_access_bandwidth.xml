@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_required_access_bandwidth" table="u_product_quote" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_required_access_bandwidth</element>
+            <name>u_product_quote</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-12 01:22:09</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_required_access_bandwidth</sys_name>
+            <sys_package display_value="GCX Flag Configs" source="c981674b47a3311078f031b4116d4387">c981674b47a3311078f031b4116d4387</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="GCX Flag Configs">c981674b47a3311078f031b4116d4387</sys_scope>
+            <sys_update_name>sys_choice_u_product_quote_u_required_access_bandwidth</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-12 01:22:09</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_required_access_bandwidth</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>--- Sub E1 ---</label>
+            <language>en</language>
+            <name>u_product_quote</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-12 01:28:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d36ad8f74727b11078f031b4116d4374</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-12 01:28:58</sys_updated_on>
+            <value>--- Sub E1 ---</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_required_access_bandwidth</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>128K</label>
+            <language>en</language>
+            <name>u_product_quote</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-12 01:28:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f74a54f74727b11078f031b4116d4390</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-12 01:28:58</sys_updated_on>
+            <value>128K</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_required_access_bandwidth</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>64K</label>
+            <language>en</language>
+            <name>u_product_quote</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-12 01:28:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3b4a54f74727b11078f031b4116d438f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-12 01:28:26</sys_updated_on>
+            <value>64K</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_required_access_bandwidth</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>256K</label>
+            <language>en</language>
+            <name>u_product_quote</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-12 01:28:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3f4a5cf74727b11078f031b4116d43d3</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-12 01:29:13</sys_updated_on>
+            <value>256K</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

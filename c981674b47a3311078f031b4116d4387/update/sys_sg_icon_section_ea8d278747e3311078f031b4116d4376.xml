@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_icon_section">
+    <sys_sg_icon_section action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applets>928d278747e3311078f031b4116d4342</applets>
+        <card_size/>
+        <column_count/>
+        <custom_height/>
+        <custom_width/>
+        <data_item/>
+        <display_feed_count>false</display_feed_count>
+        <hide_header>false</hide_header>
+        <hide_section_if_empty>false</hide_section_if_empty>
+        <is_custom_size>false</is_custom_size>
+        <is_hidden_preference_name/>
+        <orientation>horizontal</orientation>
+        <required_roles>admin</required_roles>
+        <row_count/>
+        <sys_class_name>sys_sg_icon_section</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-10 08:55:53</sys_created_on>
+        <sys_id>ea8d278747e3311078f031b4116d4376</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>product_quote</sys_name>
+        <sys_package display_value="GCX Flag Configs" source="c981674b47a3311078f031b4116d4387">c981674b47a3311078f031b4116d4387</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GCX Flag Configs">c981674b47a3311078f031b4116d4387</sys_scope>
+        <sys_update_name>sys_sg_icon_section_ea8d278747e3311078f031b4116d4376</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-10 08:55:53</sys_updated_on>
+        <table/>
+        <title>product_quote</title>
+        <visible_condition/>
+        <wide_column_count/>
+    </sys_sg_icon_section>
+</record_update>
