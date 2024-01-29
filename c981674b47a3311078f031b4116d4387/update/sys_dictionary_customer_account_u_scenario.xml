@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="u_sap_external_id" table="customer_account">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="u_scenario" table="customer_account">
         <active>true</active>
         <array>false</array>
         <attributes/>
@@ -10,10 +10,10 @@
 	return '';  // return the calculated value
 
 })(current);]]></calculation>
-        <choice/>
+        <choice>1</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>SAP External Id</column_label>
+        <column_label>Scenario</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -26,15 +26,15 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>u_sap_external_id</element>
+        <element>u_scenario</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="">string_full_utf8</internal_type>
+        <internal_type display_value="Choice">choice</internal_type>
         <mandatory>false</mandatory>
-        <max_length>100</max_length>
+        <max_length>40</max_length>
         <name>customer_account</name>
         <next_element/>
         <primary>false</primary>
@@ -51,14 +51,14 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-22 09:52:10</sys_created_on>
+        <sys_created_on>2024-01-29 10:10:32</sys_created_on>
         <sys_name>customer_account</sys_name>
         <sys_package display_value="GCX Flag Configs" source="c981674b47a3311078f031b4116d4387">c981674b47a3311078f031b4116d4387</sys_package>
         <sys_policy/>
         <sys_scope display_value="GCX Flag Configs">c981674b47a3311078f031b4116d4387</sys_scope>
-        <sys_update_name>sys_dictionary_customer_account_u_sap_external_id</sys_update_name>
+        <sys_update_name>sys_dictionary_customer_account_u_scenario</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-29 10:09:39</sys_updated_on>
+        <sys_updated_on>2024-01-29 10:10:32</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <u_column_name1/>
@@ -74,16 +74,16 @@
     </sys_dictionary>
     <sys_claim action="INSERT_OR_UPDATE">
         <claim_owner_scope display_value="GCX Flag Configs">c981674b47a3311078f031b4116d4387</claim_owner_scope>
-        <claim_timestamp>18d351591df0000001</claim_timestamp>
-        <metadata_update_name>sys_dictionary_customer_account_u_sap_external_id</metadata_update_name>
+        <claim_timestamp>18d54b683810000001</claim_timestamp>
+        <metadata_update_name>sys_dictionary_customer_account_u_scenario</metadata_update_name>
         <previous_claim_app_version>1.0.0</previous_claim_app_version>
         <previous_claim_name>GCX Flag Configs</previous_claim_name>
         <previous_claim_scope>c981674b47a3311078f031b4116d4387</previous_claim_scope>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-23 06:50:22</sys_created_on>
-        <sys_id>2a7dced7c377fd50cc6b98477d01316e</sys_id>
+        <sys_created_on>2024-01-29 10:14:23</sys_created_on>
+        <sys_id>79b53dd5970002107b2abf8fe153af9a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-23 06:50:22</sys_updated_on>
+        <sys_updated_on>2024-01-29 10:14:23</sys_updated_on>
     </sys_claim>
 </record_update>

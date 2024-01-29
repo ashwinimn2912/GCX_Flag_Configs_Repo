@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_scenario" table="customer_account" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_scenario</element>
+            <name>customer_account</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-29 10:10:58</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_scenario</sys_name>
+            <sys_package display_value="GCX Flag Configs" source="c981674b47a3311078f031b4116d4387">c981674b47a3311078f031b4116d4387</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="GCX Flag Configs">c981674b47a3311078f031b4116d4387</sys_scope>
+            <sys_update_name>sys_choice_customer_account_u_scenario</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-29 10:10:58</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_scenario</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>One</label>
+            <language>en</language>
+            <name>customer_account</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-29 10:10:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>04e47595970002107b2abf8fe153af3f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-29 10:10:58</sys_updated_on>
+            <value>One</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_scenario</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Two</label>
+            <language>en</language>
+            <name>customer_account</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-29 10:11:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>aaf43195970002107b2abf8fe153af62</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-29 10:11:27</sys_updated_on>
+            <value>Two</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
