@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" db_object_id="72a9f63b972031107b2abf8fe153af3b" extends="core_company" label="Account" max_length="40" name="customer_account" text_index="true" type="collection">
-        <element label="SAP External Id" max_length="100" name="u_sap_external_id" type="string_full_utf8"/>
+    <element audit="true" db_object_id="50decedc474531106c2dcecbd36d4337" extends="core_company" label="Account" max_length="40" name="customer_account" text_index="true" type="collection">
+        <element label="New Date" max_length="40" name="u_new_date" type="glide_date"/>
+        <element label="SAP External Id" max_length="100" name="u_sap_external_id" type="string"/>
         <element choice="1" label="Scenario" max_length="40" name="u_scenario" type="choice">
             <choice>
                 <element inactive_on_update="false" label="One" value="One"/>
