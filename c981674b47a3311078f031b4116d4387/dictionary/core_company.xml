@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="all_tables.text_index_translations=true,global_search_config_handler=CompanySearchConfig" create_roles="user_admin" db_object_id="20ced832d423211095d7c105f1bf4356" label="Company" max_length="40" name="core_company" text_index="true" type="collection">
+        <element label="City" max_length="50" name="city" type="string"/>
+        <element label="Name" mandatory="true" max_length="100" name="name" type="string_full_utf8"/>
+        <index name="index">
+            <element name="name"/>
+        </index>
+    </element>
+</database>
